@@ -1,0 +1,20 @@
+{
+  "name": "backend-dark-theme",
+  "displayName": "Backend Dark Theme",
+  "description": "A dark theme for backend development",
+  "version": "0.0.4",
+  "publisher": "lucas-domingues",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Backend Dark Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/backend_dark.json"
+      }
+    ]
+  }
+}
