@@ -64,7 +64,24 @@
       }
     },
     {
-      "scope": ["keyword"],
+      "scope": [
+        "constant.language.php", "variable.language.this.php","punctuation.section.embedded.begin.php",
+        "constant.language.python"
+      ],
+      "settings": {
+        "foreground": "#BD93F9",
+        "fontStyle": "italic bold"
+      }
+    },
+    {
+      "scope": ["constant.other.class.php"],
+      "settings": {
+        "foreground": "#BD93F9",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": ["keyword","punctuation.definition.parameters.end.bracket.round"],
       "settings": {
         "foreground": "#ff54b5"
       }
@@ -132,7 +149,10 @@
         "keyword.operator.comparison",
         "keyword.operator.null-coalescing",
         "keyword.operator.string",
-        "keyword.operator.arithmetic"
+        "keyword.operator.arithmetic",
+        "keyword.operator.ternary",
+        "keyword.operator.assignment",
+        "keyword.operator.logical"
       ],
       "settings": {
         "foreground": "#ff54b5",
@@ -162,7 +182,7 @@
     {
       "scope": ["log.info"],
       "settings": {
-        "foreground": "#52fd8bec",
+        "foreground": "#52fd8bec"
       }
     },
     {
@@ -187,9 +207,8 @@
     },
     {
       "scope": [
-            // "meta.function-call.generic.python"
-            // "meta.function-call.python",
-            "meta.member.access.python"
+            "meta.member.access.python",
+            "meta.function-call.generic.python"
           ],
       "settings": {
         "foreground": "#52fd8bec"
@@ -198,6 +217,7 @@
     },
     {
       "scope": [
+        "support.type.python",
         "support.type.exception.python",
         "entity.name.type.class.python",
         "meta.class.python"
@@ -217,8 +237,7 @@
     "scope": [
         "entity.name.tag.html",
         "meta.tag.structure.head.start.html",
-        "meta.tag.structure.head.end.html",
-        // "text.html.derivative"
+        "meta.tag.structure.head.end.html"
       ],
       "settings": {
         "foreground": "#ff54b5"
@@ -234,9 +253,9 @@
       ],
       "settings": {
         "foreground": "#52fd8bec"
-      },
+      }
     },
-  //JAVA SCRIPT CONFIG
+  //JAVASCRIPT CONFIG
     {
     "scope": [
       "variable.other.object.js",
@@ -248,7 +267,43 @@
       "settings": {
         "foreground": "#6Cb1fd"
       }
-    }
-
+    },
+    //docker-compose config
+    {
+      "scope": [
+    	"entity.name.tag.yaml"
+      ],
+      "settings": {
+        "foreground": "#8BE9FD"
+      }
+    },
+    //CSS CONFIG
+    {
+      "scope": [
+    	"support.type.property-name.css"
+      ],
+      "settings": {
+        "foreground": "#8BE9FD"
+      }
+    },
+    {
+      "scope": [
+    	"entity.other.attribute-name.id.css",
+      	"entity.other.attribute-name.class.css"
+      ],
+      "settings": {
+        "foreground": "#0bdd5c",
+         "fontStyle": "italic bold"
+      }
+    },
+    //TESTE SET COLOR
+    // {
+    //   "scope": [
+    // 	""
+    //   ],
+    //   "settings": {
+    //     "foreground": "#000"
+    //   }
+    // }
   ]
 }

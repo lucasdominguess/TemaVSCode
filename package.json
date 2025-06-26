@@ -2,7 +2,7 @@
   "name": "backend-dark-theme",
   "displayName": "Backend Dark Theme",
   "description": "A dark theme for backend development",
-  "version": "0.0.4",
+  "version": "0.0.7",
   "publisher": "lucas-domingues",
   "engines": {
     "vscode": "^1.60.0"
