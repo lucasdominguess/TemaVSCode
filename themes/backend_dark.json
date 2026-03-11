@@ -74,7 +74,11 @@
       }
     },
     {
-      "scope": ["constant.other.class.php"],
+      "scope": [
+        "constant.other.class.php",
+        "constant.enum.php",
+        "meta.enum.body.php"
+      ],
       "settings": {
         "foreground": "#BD93F9",
         "fontStyle": "italic"
@@ -268,6 +272,15 @@
         "foreground": "#6Cb1fd"
       }
     },
+     {
+      "scope": [
+    	"variable.other.constant.js"
+      ],
+      "settings": {
+        "foreground": "#880ED4",
+        "fontStyle": "bold"
+      }
+    },
     //docker-compose config
     {
       "scope": [
@@ -299,10 +312,11 @@
     //TESTE SET COLOR
     // {
     //   "scope": [
-    // 	""
+    // 	"punctuation.definition.parameters.begin.bracket.round.php",
+    //   	"punctuation.definition.parameters.end.bracket.round.php"
     //   ],
     //   "settings": {
-    //     "foreground": "#000"
+    //     "foreground": "#ffff"
     //   }
     // }
   ]
